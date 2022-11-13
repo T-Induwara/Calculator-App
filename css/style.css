@@ -14,11 +14,9 @@ body {
 }
 
 #calc-body {
-    background-color: rgb(90, 90, 90);
     border-radius: 20px;
     border: 0px;
     width: 75vw;
-    height: 550px;
     position: absolute;
     top: 0;
     left: 0;
@@ -28,39 +26,43 @@ body {
 }
 
 #number-input {
+    background-color: rgb(235, 235, 235);
     margin-top: 20px;
     width: 100%;
-    height: 200px;
-    border-radius: 20px 20px 0 0;
+    height: 120px;
+    border-radius: 10px;
     border: 0px;
     padding: 0px;
     font-size: 30px;
     text-align: right;
-    background-color: rgb(235, 235, 235);
 }
 
 #number-input:focus {
     outline: none;
 }
 
+.calc-num-body {
+    background-color: purple;
+    padding: 20px 20px 40px 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
 #row {
     display: flex;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .col {
     flex: 25%;
-}
-
-.col {
     text-align: center;
     color: rgb(158, 157, 157);
     font-size: 25px;
-}
-
-.col:hover {
-    color: white;
-    cursor: grab;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    background-color: red;
+    margin: 0px 10px 0px 10px;
+    padding: 15px 0px 15px 0px;
 }
 
 .col-c {
@@ -68,11 +70,21 @@ body {
     text-align: center;
     color: rgb(158, 157, 157);
     font-size: 25px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    background-color: red;
+    margin: 0px 10px 0px 10px;
+    padding: 15px 0px 15px 0px;
+}
+
+.col:hover {
+    color: white;
+    cursor: pointer;
 }
 
 .col-c:hover {
     color: white;
-    cursor: grab;
+    cursor: pointer;
 }
 
 .shadow {
@@ -82,12 +94,12 @@ body {
 
 @media only screen and (min-width: 375px) {
     #calc-body {
-        width: 75vw;
+        width: 300px;
     }
 }
 
 @media only screen and (min-width: 1280px) {
     #calc-body {
-        width: 40vw;
+        width: 400px;
     }
 }
