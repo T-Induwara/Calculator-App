@@ -61,11 +61,6 @@ body {
     cursor: grab;
 }
 
-#row1 {
-    display: flex;
-    margin-top: 40px;
-}
-
 .col-c {
     flex: 25%;
     text-align: center;

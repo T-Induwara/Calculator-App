@@ -1,7 +1,7 @@
 var num0 = document.getElementById("0");//Declaring varialbes for 0,=,/ and c
 var equal = document.getElementById("=");
 var devide = document.getElementById("/");
-var clear = document.getElementById("c");
+var clear = document.getElementById("reset");
 
 var display = document.getElementById("number-input");//Declaring input area
 const cols = document.querySelectorAll('.col');//Declaring all the columns into single constant
