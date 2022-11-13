@@ -13,6 +13,36 @@ body {
     position: relative;
 }
 
+.top-bar,
+.btn-numbers,
+.r-col-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btn-numbers {
+    justify-content: space-around !important;
+}
+
+.btn-numbers p {
+    text-align: center;
+}
+
+.number-switces {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.number-switces div {
+    width: 10px;
+    height: 10px;
+    background-color: aqua;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
 #calc-body {
     border-radius: 20px;
     border: 0px;
@@ -53,18 +83,7 @@ body {
     margin-top: 20px;
 }
 
-.col {
-    flex: 25%;
-    text-align: center;
-    color: rgb(158, 157, 157);
-    font-size: 25px;
-    font-family: 'League Spartan', sans-serif;
-    font-weight: 700;
-    background-color: red;
-    margin: 0px 10px 0px 10px;
-    padding: 15px 0px 15px 0px;
-}
-
+.col,
 .col-c {
     flex: 25%;
     text-align: center;
@@ -72,16 +91,12 @@ body {
     font-size: 25px;
     font-family: 'League Spartan', sans-serif;
     font-weight: 700;
-    background-color: red;
+    background-color: rgb(192, 84, 84);
     margin: 0px 10px 0px 10px;
     padding: 15px 0px 15px 0px;
 }
 
-.col:hover {
-    color: white;
-    cursor: pointer;
-}
-
+.col:hover,
 .col-c:hover {
     color: white;
     cursor: pointer;
