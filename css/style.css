@@ -1,8 +1,5 @@
 body {
     margin: 0;
-    background: linear-gradient(240deg,
-            hsla(248, 21%, 15%, 1) 0%,
-            hsla(250, 14%, 61%, 1) 100%);
 }
 
 /* font-family: 'League Spartan', sans-serif; */
@@ -99,6 +96,7 @@ body {
     border-radius: 10px;
     border: 0px;
     padding: 0px;
+    padding-right: 40px !important;
     font-size: 30px;
     text-align: right;
     font-size: 55px;
