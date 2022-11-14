@@ -31,6 +31,11 @@ body {
     font-size: 11px;
     display: flex;
     align-items: center;
+    padding-right: 20px;
+}
+
+.r-col-btns {
+    margin-top: -30px;
 }
 
 .top-bar {
@@ -96,16 +101,22 @@ body {
     padding: 0px;
     font-size: 30px;
     text-align: right;
+    font-size: 55px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
 }
 
 #number-input:focus {
     outline: none;
+    font-size: 55px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
 }
 
 .calc-num-body {
     background-color: purple;
     padding: 10px 20px 30px 20px;
-    margin-top: 40px;
+    margin-top: 20px;
     border-radius: 10px;
 }
 
