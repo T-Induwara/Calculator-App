@@ -18,6 +18,10 @@ var themeBtn1 = document.getElementById("sw-1");
 var themeBtn2 = document.getElementById("sw-2");
 var themeBtn3 = document.getElementById("sw-3");
 
+var screen = document.getElementById("number-input");
+var calcBody = document.getElementById("calc-body");
+
+
 themeBtn1.addEventListener("click", function () {
     body.classList.add("theme1-body-bg");
     body.classList.remove("theme2-body-bg");
@@ -39,6 +43,8 @@ themeBtn1.addEventListener("click", function () {
     themeBtn1.style.backgroundColor = "hsl(6, 63%, 50%)";
     themeBtn2.style.backgroundColor = "#FFB3CB00";
     themeBtn3.style.backgroundColor = "#FFB3CB00";
+
+
 
 });
 themeBtn2.addEventListener("click", function () {
