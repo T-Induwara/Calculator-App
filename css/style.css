@@ -107,7 +107,7 @@ body {
 }
 
 .theme3-top-txt {
-    color: hsl(60, 10%, 19%);
+    color: hsl(52, 100%, 62%);
 }
 
 .theme3-theme-select-bg {
@@ -146,6 +146,12 @@ body {
 }
 
 /*Color themes styles ending*/
+
+.sw-2,
+.sw-3 {
+    background-color: #FFB3CB00;
+}
+
 .left-col,
 .r-col-txt,
 .btn-numbers {

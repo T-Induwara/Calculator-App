@@ -7,12 +7,26 @@ var display = document.getElementById("number-input");//Declaring input area
 const cols = document.querySelectorAll('.col');//Declaring all the columns into single constant
 
 //Theme component declaring
+var calcTxt1 = document.getElementById("top-txt1");
+var calcTxt2 = document.getElementById("top-txt2");
+var calcTxt3 = document.getElementById("top-txt3");
+
 var themeBtnBg = document.getElementById("switch-bg");
 var themeBtn1 = document.getElementById("sw-1");
 var themeBtn2 = document.getElementById("sw-2");
 var themeBtn3 = document.getElementById("sw-3");
 
 themeBtn1.addEventListener("click", function () {
+    calcTxt1.classList.add("theme1-top-txt");
+    calcTxt2.classList.add("theme1-top-txt");
+    calcTxt3.classList.add("theme1-top-txt");
+    calcTxt1.classList.remove("theme2-top-txt");
+    calcTxt2.classList.remove("theme2-top-txt");
+    calcTxt3.classList.remove("theme2-top-txt");
+    calcTxt1.classList.remove("theme3-top-txt");
+    calcTxt2.classList.remove("theme3-top-txt");
+    calcTxt3.classList.remove("theme3-top-txt");
+
     themeBtnBg.classList.add("theme1-theme-select-bg");
     themeBtnBg.classList.remove("theme2-theme-select-bg");
     themeBtnBg.classList.remove("theme3-theme-select-bg");
@@ -22,6 +36,16 @@ themeBtn1.addEventListener("click", function () {
 
 });
 themeBtn2.addEventListener("click", function () {
+    calcTxt1.classList.add("theme2-top-txt");
+    calcTxt2.classList.add("theme2-top-txt");
+    calcTxt3.classList.add("theme2-top-txt");
+    calcTxt1.classList.remove("theme1-top-txt");
+    calcTxt2.classList.remove("theme1-top-txt");
+    calcTxt3.classList.remove("theme1-top-txt");
+    calcTxt1.classList.remove("theme3-top-txt");
+    calcTxt2.classList.remove("theme3-top-txt");
+    calcTxt3.classList.remove("theme3-top-txt");
+
     themeBtnBg.classList.add("theme2-theme-select-bg");
     themeBtnBg.classList.remove("theme1-theme-select-bg");
     themeBtnBg.classList.remove("theme3-theme-select-bg");
@@ -30,6 +54,16 @@ themeBtn2.addEventListener("click", function () {
     themeBtn3.style.backgroundColor = "#FFB3CB00";
 });
 themeBtn3.addEventListener("click", function () {
+    calcTxt1.classList.add("theme3-top-txt");
+    calcTxt2.classList.add("theme3-top-txt");
+    calcTxt3.classList.add("theme3-top-txt");
+    calcTxt1.classList.remove("theme1-top-txt");
+    calcTxt2.classList.remove("theme1-top-txt");
+    calcTxt3.classList.remove("theme1-top-txt");
+    calcTxt1.classList.remove("theme2-top-txt");
+    calcTxt2.classList.remove("theme2-top-txt");
+    calcTxt3.classList.remove("theme2-top-txt");
+
     themeBtnBg.classList.add("theme3-theme-select-bg");
     themeBtnBg.classList.remove("theme1-theme-select-bg");
     themeBtnBg.classList.remove("theme2-theme-select-bg");
