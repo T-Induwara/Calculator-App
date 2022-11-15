@@ -101,6 +101,50 @@ body {
     color: hsl(0, 0%, 100%);
 }
 
+/*Theme 3*/
+.theme3-body-bg {
+    background-color: hsl(268, 75%, 9%);
+}
+
+.theme3-top-txt {
+    color: hsl(60, 10%, 19%);
+}
+
+.theme3-theme-select-bg {
+    background-color: hsl(268, 71%, 12%);
+}
+
+.theme3-theme-select-btn {
+    background-color: hsl(176, 100%, 44%);
+}
+
+.theme3-number-input {
+    background-color: hsl(268, 71%, 12%);
+    color: hsl(0, 0%, 100%);
+}
+
+.theme3-calc-num-body {
+    background-color: hsl(268, 71%, 12%);
+}
+
+.theme3-normal-btn {
+    background-color: hsl(268, 47%, 21%);
+    box-shadow: hsl(290, 70%, 36%) 0px 3px 1px;
+    color: hsl(52, 100%, 62%);
+}
+
+.theme3-reset-del-btn {
+    background-color: hsl(281, 89%, 26%);
+    box-shadow: hsl(285, 91%, 52%) 0px 3px 1px;
+    color: hsl(0, 0%, 100%);
+}
+
+.theme3-ans-btn {
+    background-color: hsl(176, 100%, 44%);
+    box-shadow: hsl(177, 92%, 70%) 0px 3px 1px;
+    color: hsl(198, 20%, 13%);
+}
+
 /*Color themes styles ending*/
 .left-col,
 .r-col-txt,
