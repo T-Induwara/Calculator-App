@@ -150,6 +150,7 @@ body {
 .sw-2,
 .sw-3 {
     background-color: #FFB3CB00;
+    /*This line reset the theme selector button color when loading for the first time.*/
 }
 
 .left-col,
@@ -211,7 +212,7 @@ body {
     height: 13px;
     margin-left: 5px;
     margin-right: 5px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .number-switces div:hover {

@@ -7,6 +7,8 @@ var display = document.getElementById("number-input");//Declaring input area
 const cols = document.querySelectorAll('.col');//Declaring all the columns into single constant
 
 //Theme component declaring
+var body = document.getElementById("body");
+
 var calcTxt1 = document.getElementById("top-txt1");
 var calcTxt2 = document.getElementById("top-txt2");
 var calcTxt3 = document.getElementById("top-txt3");
@@ -17,6 +19,10 @@ var themeBtn2 = document.getElementById("sw-2");
 var themeBtn3 = document.getElementById("sw-3");
 
 themeBtn1.addEventListener("click", function () {
+    body.classList.add("theme1-body-bg");
+    body.classList.remove("theme2-body-bg");
+    body.classList.remove("theme3-body-bg");
+
     calcTxt1.classList.add("theme1-top-txt");
     calcTxt2.classList.add("theme1-top-txt");
     calcTxt3.classList.add("theme1-top-txt");
@@ -36,6 +42,10 @@ themeBtn1.addEventListener("click", function () {
 
 });
 themeBtn2.addEventListener("click", function () {
+    body.classList.add("theme2-body-bg");
+    body.classList.remove("theme1-body-bg");
+    body.classList.remove("theme3-body-bg");
+
     calcTxt1.classList.add("theme2-top-txt");
     calcTxt2.classList.add("theme2-top-txt");
     calcTxt3.classList.add("theme2-top-txt");
@@ -54,6 +64,10 @@ themeBtn2.addEventListener("click", function () {
     themeBtn3.style.backgroundColor = "#FFB3CB00";
 });
 themeBtn3.addEventListener("click", function () {
+    body.classList.add("theme3-body-bg");
+    body.classList.remove("theme1-body-bg");
+    body.classList.remove("theme2-body-bg");
+
     calcTxt1.classList.add("theme3-top-txt");
     calcTxt2.classList.add("theme3-top-txt");
     calcTxt3.classList.add("theme3-top-txt");
