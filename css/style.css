@@ -14,16 +14,91 @@ body {
 /*Color themes styles begining*/
 
 /*Theme 1 (Default)*/
-body {
+.theme1-body-bg {
     background-color: hsl(222, 26%, 31%);
 }
 
-.number-input {
-    background-color: hsl(224, 36%, 15%);
+.theme1-top-txt {
+    color: hsl(0, 0%, 100%);
 }
 
-.calc-num-body {
+.theme1-theme-select-bg {
     background-color: hsl(223, 31%, 20%);
+}
+
+.theme1-theme-select-btn {
+    background-color: hsl(6, 63%, 50%);
+}
+
+.theme1-number-input {
+    background-color: hsl(224, 36%, 15%);
+    color: hsl(0, 0%, 100%);
+}
+
+.theme1-calc-num-body {
+    background-color: hsl(223, 31%, 20%);
+}
+
+.theme1-normal-btn {
+    background-color: hsl(30, 25%, 89%);
+    box-shadow: hsl(28, 16%, 65%) 0px 3px 1px;
+    color: hsl(221, 14%, 31%);
+}
+
+.theme1-reset-del-btn {
+    background-color: hsl(225, 21%, 49%);
+    box-shadow: hsl(224, 28%, 35%) 0px 3px 1px;
+    color: hsl(0, 0%, 100%);
+}
+
+.theme1-ans-btn {
+    background-color: hsl(6, 63%, 50%);
+    box-shadow: hsl(6, 70%, 34%) 0px 3px 1px;
+    color: hsl(0, 0%, 100%);
+}
+
+/*Theme 2*/
+.theme2-body-bg {
+    background-color: hsl(0, 0%, 90%);
+}
+
+.theme2-top-txt {
+    color: hsl(60, 10%, 19%);
+}
+
+.theme2-theme-select-bg {
+    background-color: hsl(0, 5%, 81%);
+}
+
+.theme2-theme-select-btn {
+    background-color: hsl(25, 98%, 40%);
+}
+
+.theme2-number-input {
+    background-color: hsl(0, 0%, 93%);
+    color: hsl(0, 0%, 100%);
+}
+
+.theme2-calc-num-body {
+    background-color: hsl(0, 5%, 81%);
+}
+
+.theme2-normal-btn {
+    background-color: hsl(45, 7%, 89%);
+    box-shadow: hsl(35, 11%, 61%) 0px 3px 1px;
+    color: hsl(60, 10%, 19%);
+}
+
+.theme2-reset-del-btn {
+    background-color: hsl(185, 42%, 37%);
+    box-shadow: hsl(185, 58%, 25%) 0px 3px 1px;
+    color: hsl(0, 0%, 100%);
+}
+
+.theme2-ans-btn {
+    background-color: hsl(25, 98%, 40%);
+    box-shadow: hsl(25, 99%, 27%) 0px 3px 1px;
+    color: hsl(0, 0%, 100%);
 }
 
 /*Color themes styles ending*/
@@ -77,7 +152,6 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: blueviolet;
     padding: 3px 0px 3px 0px !important;
     border-radius: 10px;
 }
@@ -85,10 +159,13 @@ body {
 .number-switces div {
     width: 13px;
     height: 13px;
-    background-color: aqua;
     margin-left: 5px;
     margin-right: 5px;
     border-radius: 5px;
+}
+
+.number-switces div:hover {
+    cursor: pointer;
 }
 
 #calc-body {
@@ -139,20 +216,16 @@ body {
 .col-c {
     flex: 25%;
     text-align: center;
-    color: rgb(158, 157, 157);
     font-size: 32px;
     font-family: 'League Spartan', sans-serif;
     font-weight: 700;
-    background-color: rgb(192, 84, 84);
     margin: 0px 10px 0px 10px;
     padding: 15px 0px 15px 0px;
     border-radius: 10px;
-    box-shadow: white 0px 3px 1px;
 }
 
 .col:hover,
 .col-c:hover {
-    color: white;
     cursor: pointer;
 }
 
