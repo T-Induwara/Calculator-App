@@ -138,5 +138,5 @@ equal.onclick = function (input) {//Code for = key
 }
 
 deleteBtn.onclick = function () {
-    display.value = strng.substring(0, strng.length - 1);
+    display.value = display.value.toString().slice(0, -1);
 }
