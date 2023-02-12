@@ -46,6 +46,14 @@ body {
     background-color: hsl(223, 31%, 20%);
 }
 
+.theme2-theme-select-bg {
+    background-color: hsl(0, 5%, 81%);
+}
+
+.theme3-theme-select-bg {
+    background-color: hsl(268, 71%, 12%);
+}
+
 .theme-theme-select-btn {
     background-color: hsl(6, 63%, 50%);
 }
@@ -95,50 +103,6 @@ body {
     transition: 0.6s;
 }
 
-/*Theme 3*/
-.theme3-body-bg {
-    background-color: hsl(268, 75%, 9%);
-}
-
-.theme3-top-txt {
-    color: hsl(52, 100%, 62%);
-}
-
-.theme3-theme-select-bg {
-    background-color: hsl(268, 71%, 12%);
-}
-
-.theme3-theme-select-btn {
-    background-color: hsl(176, 100%, 44%);
-}
-
-.theme3-number-input {
-    background-color: hsl(268, 71%, 12%);
-    color: hsl(0, 0%, 100%);
-}
-
-.theme3-calc-num-body {
-    background-color: hsl(268, 71%, 12%);
-}
-
-.theme3-normal-btn {
-    background-color: hsl(268, 47%, 21%);
-    box-shadow: hsl(290, 70%, 36%) 0px 3px 1px;
-    color: hsl(52, 100%, 62%);
-}
-
-.theme3-reset-del-btn {
-    background-color: hsl(281, 89%, 26%);
-    box-shadow: hsl(285, 91%, 52%) 0px 3px 1px;
-    color: hsl(0, 0%, 100%);
-}
-
-.theme3-ans-btn {
-    background-color: hsl(176, 100%, 44%);
-    box-shadow: hsl(177, 92%, 70%) 0px 3px 1px;
-    color: hsl(198, 20%, 13%);
-}
-
 /*Color themes styles ending*/
 
 .sw-2,
@@ -151,12 +115,22 @@ body {
 .r-col-txt,
 .btn-numbers {
     font-family: 'League Spartan', sans-serif;
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+    /* Standard syntax */
 }
 
 .left-col {
     font-size: 28px;
     display: flex;
     align-items: center;
+}
+
+.r-col-main {
+    padding-top: 10px;
 }
 
 .r-col-txt {
@@ -170,9 +144,7 @@ body {
     margin-top: -30px;
 }
 
-.top-bar {
-    margin-top: 4rem;
-}
+.top-bar {}
 
 .top-bar,
 .btn-numbers,
@@ -218,10 +190,9 @@ body {
     border: 0px;
     width: 75vw;
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     margin: auto;
 }
 
@@ -271,6 +242,12 @@ body {
     margin: 0px 10px 0px 10px;
     padding: 15px 0px 15px 0px;
     border-radius: 10px;
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+    /* Standard syntax */
 }
 
 .col:hover,
@@ -287,10 +264,6 @@ body {
     #calc-body {
         width: 90%;
     }
-
-    .screen-outer {
-        margin-top: 3vh;
-    }
 }
 
 @media only screen and (min-width: 1280px) {
@@ -298,7 +271,4 @@ body {
         width: 480px;
     }
 
-    .screen-outer {
-        margin-top: 2vh;
-    }
 }

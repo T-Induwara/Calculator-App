@@ -62,11 +62,13 @@ themeBtn3.addEventListener("click", function () {
 });
 
 cols.forEach((c) => {//In here I added click event listner for all the col s and then print the innerHTML value into input area
-    c.addEventListener('click', function () {
+    c.addEventListener('mousedown', function () {
         console.log(c.innerHTML);
         console.log(c.id);
         display.value += c.innerHTML;
-    })
+    });
+    c.addEventListener('mouseup', function () {
+    });
 })
 
 num0.onclick = function (input) {//Code for 0 key

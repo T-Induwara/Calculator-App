@@ -122,6 +122,10 @@ body {
     align-items: center;
 }
 
+.r-col-main {
+    padding-top: 10px;
+}
+
 .r-col-txt {
     font-size: 11px;
     display: flex;
@@ -133,9 +137,7 @@ body {
     margin-top: -30px;
 }
 
-.top-bar {
-    margin-top: 4rem;
-}
+.top-bar {}
 
 .top-bar,
 .btn-numbers,
@@ -181,10 +183,9 @@ body {
     border: 0px;
     width: 75vw;
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     margin: auto;
 }
 
@@ -234,6 +235,12 @@ body {
     margin: 0px 10px 0px 10px;
     padding: 15px 0px 15px 0px;
     border-radius: 10px;
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+    /* Standard syntax */
 }
 
 .col:hover,
