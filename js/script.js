@@ -20,24 +20,15 @@ var themeBtn1 = document.getElementById("sw-1");
 var themeBtn2 = document.getElementById("sw-2");
 var themeBtn3 = document.getElementById("sw-3");
 
-themeBtn1.addEventListener("click", function () {
-    console.log("Theme btn 1 clicked");
-    styleLine.href = "css/theme1-style.css";
-})
-themeBtn2.addEventListener("click", function () {
-    console.log("Theme btn 2 clicked");
-    styleLine.href = "css/theme2-style.css";
-})
-themeBtn3.addEventListener("click", function () {
-    console.log("Theme btn 3 clicked");
-    styleLine.href = "css/theme3-style.css";
-})
 
 var screen = document.getElementById("number-input");
 var calcBody = document.getElementById("calc-body");
 
 
 themeBtn1.addEventListener("click", function () {
+    console.log("Theme btn 1 clicked");
+    styleLine.href = "css/theme1-style.css";
+
     themeBtnBg.classList.add("theme1-theme-select-bg");
     themeBtnBg.classList.remove("theme2-theme-select-bg");
     themeBtnBg.classList.remove("theme3-theme-select-bg");
@@ -47,6 +38,9 @@ themeBtn1.addEventListener("click", function () {
 });
 
 themeBtn2.addEventListener("click", function () {
+    console.log("Theme btn 2 clicked");
+    styleLine.href = "css/theme2-style.css";
+
     themeBtnBg.classList.add("theme2-theme-select-bg");
     themeBtnBg.classList.remove("theme1-theme-select-bg");
     themeBtnBg.classList.remove("theme3-theme-select-bg");
@@ -56,6 +50,9 @@ themeBtn2.addEventListener("click", function () {
 });
 
 themeBtn3.addEventListener("click", function () {
+    console.log("Theme btn 3 clicked");
+    styleLine.href = "css/theme3-style.css";
+
     themeBtnBg.classList.add("theme3-theme-select-bg");
     themeBtnBg.classList.remove("theme1-theme-select-bg");
     themeBtnBg.classList.remove("theme2-theme-select-bg");
@@ -93,6 +90,6 @@ equal.onclick = function (input) {//Code for = key
     }
 }
 
-deleteBtn.onclick = function () {
+deleteBtn.onclick = function () {//Function responsible for deleting the last entered digit
     display.value = display.value.toString().slice(0, -1);
 }
