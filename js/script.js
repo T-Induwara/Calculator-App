@@ -2,11 +2,13 @@ var num0 = document.getElementById("0");//Declaring varialbes for 0,=,/ and c
 var equal = document.getElementById("=");
 var devide = document.getElementById("/");
 var clear = document.getElementById("reset");
+var deleteBtn = document.getElementById("del");
 
 var display = document.getElementById("number-input");//Declaring input area
 const cols = document.querySelectorAll('.col');//Declaring all the columns into single constant
 
 //Theme component declaring
+var styleLine = document.getElementById("theme-css");
 var body = document.getElementById("body");
 
 var calcTxt1 = document.getElementById("top-txt1");
@@ -17,6 +19,19 @@ var themeBtnBg = document.getElementById("switch-bg");
 var themeBtn1 = document.getElementById("sw-1");
 var themeBtn2 = document.getElementById("sw-2");
 var themeBtn3 = document.getElementById("sw-3");
+
+themeBtn1.addEventListener("click", function () {
+    console.log("Theme btn 1 clicked");
+    styleLine.href = "css/theme1-style.css";
+})
+themeBtn2.addEventListener("click", function () {
+    console.log("Theme btn 2 clicked");
+    styleLine.href = "css/theme2-style.css";
+})
+themeBtn3.addEventListener("click", function () {
+    console.log("Theme btn 3 clicked");
+    styleLine.href = "css/theme3-style.css";
+})
 
 var screen = document.getElementById("number-input");
 var calcBody = document.getElementById("calc-body");
@@ -120,4 +135,8 @@ equal.onclick = function (input) {//Code for = key
     else {
         display.value = eval(display.value);
     }
+}
+
+deleteBtn.onclick = function () {
+    display.value = strng.substring(0, strng.length - 1);
 }
