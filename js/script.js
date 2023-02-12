@@ -47,6 +47,7 @@ themeBtn1.addEventListener("click", function () {
 
 
 });
+
 themeBtn2.addEventListener("click", function () {
     body.classList.add("theme2-body-bg");
     body.classList.remove("theme1-body-bg");
@@ -69,6 +70,7 @@ themeBtn2.addEventListener("click", function () {
     themeBtn1.style.backgroundColor = "#FFB3CB00";
     themeBtn3.style.backgroundColor = "#FFB3CB00";
 });
+
 themeBtn3.addEventListener("click", function () {
     body.classList.add("theme3-body-bg");
     body.classList.remove("theme1-body-bg");
