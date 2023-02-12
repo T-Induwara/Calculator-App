@@ -1,0 +1,241 @@
+body {
+    margin: 0;
+}
+
+/* font-family: 'League Spartan', sans-serif; */
+
+
+#main {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+/*Color themes styles begining*/
+/*CSS Variables for theme 1*/
+:root {
+    --bg: hsl(222, 26%, 31%);
+    --top-txt: hsl(0, 0%, 100%);
+    --theme-select-bg: hsl(223, 31%, 20%);
+    --theme-select-btn: hsl(6, 63%, 50%);
+    --theme-number-input-bg: hsl(224, 36%, 15%);
+    --theme-number-input-font: hsl(0, 0%, 100%);
+    --theme-calc-number-bg: hsl(223, 31%, 20%);
+    --theme-normal-function-btn-bg: hsl(30, 25%, 89%);
+    --theme-normal-function-btn-shadow: hsl(28, 16%, 65%);
+    --theme-normal-function-btn-font: hsl(221, 14%, 31%);
+    --theme-reset-function-btn-bg: hsl(30, 25%, 89%);
+    --theme-reset-function-btn-shadow: hsl(28, 16%, 65%);
+    --theme-reset-function-btn-font: hsl(221, 14%, 31%);
+    --theme-answer-function-btn-bg: hsl(6, 63%, 50%);
+    --theme-answer-function-btn-shadow: hsl(6, 70%, 34%);
+    --theme-answer-function-btn-font: hsl(0, 0%, 100%);
+}
+
+/*Theme 1 (Default)*/
+.theme1-body-bg {
+    background-color: hsl(222, 26%, 31%);
+}
+
+.theme-top-txt {
+    color: hsl(60, 10%, 19%);
+}
+
+.theme1-theme-select-bg {
+    background-color: hsl(223, 31%, 20%);
+}
+
+.theme2-theme-select-bg {
+    background-color: hsl(0, 5%, 81%);
+}
+
+.theme3-theme-select-bg {
+    background-color: hsl(268, 71%, 12%);
+}
+
+.theme-theme-select-btn {
+    background-color: hsl(25, 98%, 40%);
+}
+
+.theme-number-input {
+    background-color: hsl(0, 0%, 93%);
+    color: hsl(0, 0%, 100%);
+}
+
+.theme-calc-num-body {
+    background-color: hsl(0, 5%, 81%);
+}
+
+.theme-normal-btn {
+    background-color: hsl(45, 7%, 89%);
+    box-shadow: hsl(35, 11%, 61%) 0px 3px 1px;
+    color: hsl(60, 10%, 19%);
+}
+
+.theme-reset-del-btn {
+    background-color: hsl(185, 42%, 37%);
+    box-shadow: hsl(185, 58%, 25%) 0px 3px 1px;
+    color: hsl(0, 0%, 100%);
+}
+
+.theme-ans-btn {
+    background-color: hsl(25, 98%, 40%);
+    box-shadow: hsl(25, 99%, 27%) 0px 3px 1px;
+    color: hsl(0, 0%, 100%);
+}
+
+/*Color themes styles ending*/
+
+.sw-2,
+.sw-3 {
+    background-color: #FFB3CB00;
+    /*This line reset the theme selector button color when loading for the first time.*/
+}
+
+.left-col,
+.r-col-txt,
+.btn-numbers {
+    font-family: 'League Spartan', sans-serif;
+}
+
+.left-col {
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+}
+
+.r-col-txt {
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.r-col-btns {
+    margin-top: -30px;
+}
+
+.top-bar {
+    margin-top: 4rem;
+}
+
+.top-bar,
+.btn-numbers,
+.r-col-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btn-numbers {
+    justify-content: space-around !important;
+}
+
+.btn-numbers p {
+    font-size: 11px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+.number-switces {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3px 0px 3px 0px !important;
+    border-radius: 10px;
+}
+
+.number-switces div {
+    width: 13px;
+    height: 13px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+}
+
+.number-switces div:hover {
+    cursor: pointer;
+}
+
+#calc-body {
+    border-radius: 20px;
+    border: 0px;
+    width: 75vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.screen-outer {
+    padding-right: 25px;
+}
+
+#number-input {
+    margin-top: 20px;
+    width: 100%;
+    height: 110px;
+    border-radius: 10px;
+    border: 0px;
+    font-size: 30px;
+    text-align: right;
+    font-size: 55px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    padding-right: 25px;
+}
+
+#number-input:focus {
+    outline: none;
+    font-size: 55px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+}
+
+.calc-num-body {
+    padding: 10px 20px 30px 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#row {
+    display: flex;
+    margin-top: 20px;
+}
+
+.col,
+.col-c {
+    flex: 25%;
+    text-align: center;
+    font-size: 32px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    margin: 0px 10px 0px 10px;
+    padding: 15px 0px 15px 0px;
+    border-radius: 10px;
+}
+
+.col:hover,
+.col-c:hover {
+    cursor: pointer;
+}
+
+.shadow {
+    color: rgb(0, 204, 255);
+    text-shadow: 2px 2px 2px rgb(207, 207, 207);
+}
+
+@media only screen and (min-width: 375px) {
+    #calc-body {
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    #calc-body {
+        width: 480px;
+    }
+}

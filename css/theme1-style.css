@@ -33,8 +33,8 @@ body {
 }
 
 /*Theme 1 (Default)*/
-.theme1-body-bg {
-    background-color: var(--bg);
+.theme-body-bg {
+    background-color: hsl(222, 26%, 31%);
 }
 
 .theme-top-txt {
@@ -42,10 +42,11 @@ body {
 }
 
 .theme1-theme-select-bg {
+    /*Dont remove*/
     background-color: hsl(223, 31%, 20%);
 }
 
-.theme1-theme-select-btn {
+.theme-theme-select-btn {
     background-color: hsl(6, 63%, 50%);
 }
 

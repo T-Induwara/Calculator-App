@@ -38,20 +38,6 @@ var calcBody = document.getElementById("calc-body");
 
 
 themeBtn1.addEventListener("click", function () {
-    body.classList.add("theme1-body-bg");
-    body.classList.remove("theme2-body-bg");
-    body.classList.remove("theme3-body-bg");
-
-    calcTxt1.classList.add("theme1-top-txt");
-    calcTxt2.classList.add("theme1-top-txt");
-    calcTxt3.classList.add("theme1-top-txt");
-    calcTxt1.classList.remove("theme2-top-txt");
-    calcTxt2.classList.remove("theme2-top-txt");
-    calcTxt3.classList.remove("theme2-top-txt");
-    calcTxt1.classList.remove("theme3-top-txt");
-    calcTxt2.classList.remove("theme3-top-txt");
-    calcTxt3.classList.remove("theme3-top-txt");
-
     themeBtnBg.classList.add("theme1-theme-select-bg");
     themeBtnBg.classList.remove("theme2-theme-select-bg");
     themeBtnBg.classList.remove("theme3-theme-select-bg");
@@ -64,20 +50,6 @@ themeBtn1.addEventListener("click", function () {
 });
 
 themeBtn2.addEventListener("click", function () {
-    body.classList.add("theme2-body-bg");
-    body.classList.remove("theme1-body-bg");
-    body.classList.remove("theme3-body-bg");
-
-    calcTxt1.classList.add("theme2-top-txt");
-    calcTxt2.classList.add("theme2-top-txt");
-    calcTxt3.classList.add("theme2-top-txt");
-    calcTxt1.classList.remove("theme1-top-txt");
-    calcTxt2.classList.remove("theme1-top-txt");
-    calcTxt3.classList.remove("theme1-top-txt");
-    calcTxt1.classList.remove("theme3-top-txt");
-    calcTxt2.classList.remove("theme3-top-txt");
-    calcTxt3.classList.remove("theme3-top-txt");
-
     themeBtnBg.classList.add("theme2-theme-select-bg");
     themeBtnBg.classList.remove("theme1-theme-select-bg");
     themeBtnBg.classList.remove("theme3-theme-select-bg");
@@ -87,20 +59,6 @@ themeBtn2.addEventListener("click", function () {
 });
 
 themeBtn3.addEventListener("click", function () {
-    body.classList.add("theme3-body-bg");
-    body.classList.remove("theme1-body-bg");
-    body.classList.remove("theme2-body-bg");
-
-    calcTxt1.classList.add("theme3-top-txt");
-    calcTxt2.classList.add("theme3-top-txt");
-    calcTxt3.classList.add("theme3-top-txt");
-    calcTxt1.classList.remove("theme1-top-txt");
-    calcTxt2.classList.remove("theme1-top-txt");
-    calcTxt3.classList.remove("theme1-top-txt");
-    calcTxt1.classList.remove("theme2-top-txt");
-    calcTxt2.classList.remove("theme2-top-txt");
-    calcTxt3.classList.remove("theme2-top-txt");
-
     themeBtnBg.classList.add("theme3-theme-select-bg");
     themeBtnBg.classList.remove("theme1-theme-select-bg");
     themeBtnBg.classList.remove("theme2-theme-select-bg");
