@@ -44,9 +44,6 @@ themeBtn1.addEventListener("click", function () {
     themeBtn1.style.backgroundColor = "hsl(6, 63%, 50%)";
     themeBtn2.style.backgroundColor = "#FFB3CB00";
     themeBtn3.style.backgroundColor = "#FFB3CB00";
-
-
-
 });
 
 themeBtn2.addEventListener("click", function () {
@@ -70,6 +67,7 @@ themeBtn3.addEventListener("click", function () {
 cols.forEach((c) => {//In here I added click event listner for all the col s and then print the innerHTML value into input area
     c.addEventListener('click', function () {
         console.log(c.innerHTML);
+        console.log(c.id);
         display.value += c.innerHTML;
     })
 })

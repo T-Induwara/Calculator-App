@@ -287,10 +287,18 @@ body {
     #calc-body {
         width: 90%;
     }
+
+    .screen-outer {
+        margin-top: 3vh;
+    }
 }
 
 @media only screen and (min-width: 1280px) {
     #calc-body {
         width: 480px;
+    }
+
+    .screen-outer {
+        margin-top: 2vh;
     }
 }
