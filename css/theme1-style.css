@@ -63,62 +63,36 @@ body {
     background-color: hsl(30, 25%, 89%);
     box-shadow: hsl(28, 16%, 65%) 0px 3px 1px;
     color: hsl(221, 14%, 31%);
+    transition: 0.6s;
+}
+
+.theme-normal-btn:hover {
+    background-color: white;
+    transition: 0.6s;
 }
 
 .theme-reset-del-btn {
     background-color: hsl(225, 21%, 49%);
     box-shadow: hsl(224, 28%, 35%) 0px 3px 1px;
     color: hsl(0, 0%, 100%);
+    transition: 0.6s;
+}
+
+.theme-reset-del-btn:hover {
+    background-color: #a2b3e1;
+    transition: 0.6s;
 }
 
 .theme-ans-btn {
     background-color: hsl(6, 63%, 50%);
     box-shadow: hsl(6, 70%, 34%) 0px 3px 1px;
     color: hsl(0, 0%, 100%);
+    transition: 0.6s;
 }
 
-/*Theme 2*/
-.theme2-body-bg {
-    background-color: hsl(0, 0%, 90%);
-}
-
-.theme2-top-txt {
-    color: hsl(60, 10%, 19%);
-}
-
-.theme2-theme-select-bg {
-    background-color: hsl(0, 5%, 81%);
-}
-
-.theme2-theme-select-btn {
-    background-color: hsl(25, 98%, 40%);
-}
-
-.theme2-number-input {
-    background-color: hsl(0, 0%, 93%);
-    color: hsl(0, 0%, 100%);
-}
-
-.theme2-calc-num-body {
-    background-color: hsl(0, 5%, 81%);
-}
-
-.theme2-normal-btn {
-    background-color: hsl(45, 7%, 89%);
-    box-shadow: hsl(35, 11%, 61%) 0px 3px 1px;
-    color: hsl(60, 10%, 19%);
-}
-
-.theme2-reset-del-btn {
-    background-color: hsl(185, 42%, 37%);
-    box-shadow: hsl(185, 58%, 25%) 0px 3px 1px;
-    color: hsl(0, 0%, 100%);
-}
-
-.theme2-ans-btn {
-    background-color: hsl(25, 98%, 40%);
-    box-shadow: hsl(25, 99%, 27%) 0px 3px 1px;
-    color: hsl(0, 0%, 100%);
+.theme-ans-btn:hover {
+    background-color: #f96c5b;
+    transition: 0.6s;
 }
 
 /*Theme 3*/
