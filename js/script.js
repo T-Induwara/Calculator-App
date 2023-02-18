@@ -50,7 +50,6 @@ themeBtn2.addEventListener("click", function () {
 });
 
 themeBtn3.addEventListener("click", function () {
-    console.log("Theme btn 3 clicked");
     styleLine.href = "css/theme3-style.css";
 
     themeBtnBg.classList.add("theme3-theme-select-bg");
