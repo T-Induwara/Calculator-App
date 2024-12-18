@@ -11,7 +11,6 @@ This is a solution to the [Calculator app challenge on Frontend Mentor](https://
 - [My process](#my-process)
   - [Built with](#built-with)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 
 ## Overview
@@ -51,6 +50,3 @@ Users should be able to:
 - Github - [@T-Induwara](https://github.com/T-Induwara)
 - LinkedIn - [@t-induwara](https://www.linkedin.com/in/t-induwara/)
 
-## Acknowledgments
-
-I want to give thanks specially to [Siphiwo Julayi | GitHub Repo](https://github.com/Siphiwo/ip-address-tracker-tutorial) for showing me the write way to call API and data retrival methods.
